@@ -22,7 +22,7 @@ const SkillGrid: React.FC = () => {
         >
           <div className="space-y-4">
             <h2 className="text-xs font-mono text-blue-500 uppercase tracking-[0.4em] font-bold">Systems Architecture</h2>
-            <h3 className="text-5xl md:text-7xl font-black uppercase tracking-tighter">The Trifecta</h3>
+            <h3 className="text-5xl md:text-6xl font-black uppercase tracking-tighter">The Trifecta</h3>
           </div>
           <p className="text-gray-500 max-w-sm font-mono text-xs uppercase leading-relaxed tracking-wider">
             Specialized engineering for high-availability ecosystems where backend performance, blockchain integrity, and defensive security converge.

@@ -45,15 +45,15 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled }) => {
           </div>
           
           <div className="flex items-center space-x-6">
-            <a href="https://github.com/jamesluiz" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white transition-colors">
+            <a href="https://github.com/jamesluiz" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-white transition-colors hover:scale-110">
               <Github className="w-5 h-5" />
             </a>
-            <a href="https://linkedin.com/in/dev-eliezer" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors">
+            <a href="https://linkedin.com/in/dev-eliezer" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-blue-500 transition-colors hover:scale-110">
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
               href="mailto:eliezerjames92@gmail.com"
-              className="px-6 py-2.5 bg-white text-black text-[10px] font-black uppercase tracking-[0.2em] rounded-xl hover:bg-blue-600 hover:text-white transition-all"
+              className="px-6 py-2.5 bg-white text-black text-[10px] font-black uppercase tracking-[0.2em] rounded-xl hover:bg-blue-600 hover:text-white transition-all shadow-xl"
             >
               Contact
             </a>
